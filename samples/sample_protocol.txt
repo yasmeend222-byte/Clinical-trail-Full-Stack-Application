@@ -1,0 +1,17 @@
+LIPID-GUARD: Evaluation of a PCSK9 inhibitor in high-risk hypertensive adults
+Phase III, randomized, double-blind, placebo-controlled
+
+Inclusion Criteria:
+- Adults aged 40 to 80 years
+- Diagnosis of hypertension
+- LDL cholesterol >= 100 mg/dL despite stable therapy
+- Currently taking a statin for at least 4 weeks
+- Systolic blood pressure between 120 and 179 mmHg
+
+Exclusion Criteria:
+- History of stroke or myocardial infarction within the past 3 months
+- eGFR < 30 mL/min/1.73m2
+- Active liver disease or ALT > 3 x ULN
+- Pregnant or breastfeeding women
+- Current treatment with an anticoagulant
+- Participation in another clinical trial within 30 days

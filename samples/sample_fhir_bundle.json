@@ -1,0 +1,45 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "p-701",
+        "identifier": [{ "system": "urn:hospital:mrn", "value": "MRN-7001" }],
+        "name": [{ "given": ["Srinivas"], "family": "Rao" }],
+        "gender": "male",
+        "birthDate": "1969-05-14",
+        "address": [{ "city": "Vijayawada", "country": "India" }]
+      }
+    },
+    { "resource": { "resourceType": "Condition", "subject": { "reference": "Patient/p-701" },
+        "clinicalStatus": { "coding": [{ "code": "active" }] },
+        "code": { "coding": [{ "system": "http://snomed.info/sct", "code": "44054006", "display": "Type 2 diabetes mellitus" }] } } },
+    { "resource": { "resourceType": "Condition", "subject": { "reference": "Patient/p-701" },
+        "clinicalStatus": { "coding": [{ "code": "active" }] },
+        "code": { "text": "Essential hypertension" } } },
+    { "resource": { "resourceType": "MedicationStatement", "subject": { "reference": "Patient/p-701" }, "status": "active",
+        "medicationCodeableConcept": { "text": "Metformin 1000 mg twice daily" } } },
+    { "resource": { "resourceType": "MedicationStatement", "subject": { "reference": "Patient/p-701" }, "status": "active",
+        "medicationCodeableConcept": { "text": "Atorvastatin 20 mg" } } },
+    { "resource": { "resourceType": "Observation", "subject": { "reference": "Patient/p-701" }, "status": "final",
+        "code": { "coding": [{ "system": "http://loinc.org", "code": "4548-4", "display": "Hemoglobin A1c" }], "text": "HbA1c" },
+        "effectiveDateTime": "2026-09-02", "valueQuantity": { "value": 8.1, "unit": "%" } } },
+    { "resource": { "resourceType": "Observation", "subject": { "reference": "Patient/p-701" }, "status": "final",
+        "code": { "text": "eGFR" }, "effectiveDateTime": "2026-09-02", "valueQuantity": { "value": 72, "unit": "mL/min/1.73m2" } } },
+    { "resource": { "resourceType": "Observation", "subject": { "reference": "Patient/p-701" }, "status": "final",
+        "code": { "text": "BMI" }, "effectiveDateTime": "2026-09-02", "valueQuantity": { "value": 29.6, "unit": "kg/m2" } } },
+    { "resource": { "resourceType": "Observation", "subject": { "reference": "Patient/p-701" }, "status": "final",
+        "code": { "text": "LDL cholesterol" }, "effectiveDateTime": "2026-09-02", "valueQuantity": { "value": 128, "unit": "mg/dL" } } },
+    { "resource": { "resourceType": "Observation", "subject": { "reference": "Patient/p-701" }, "status": "final",
+        "code": { "text": "Blood pressure panel" }, "effectiveDateTime": "2026-09-02",
+        "component": [
+          { "code": { "text": "Systolic blood pressure" }, "valueQuantity": { "value": 146, "unit": "mmHg" } },
+          { "code": { "text": "Diastolic blood pressure" }, "valueQuantity": { "value": 92, "unit": "mmHg" } }
+        ] } },
+    { "resource": { "resourceType": "Observation", "subject": { "reference": "Patient/p-701" }, "status": "final",
+        "code": { "text": "Clinical note" }, "effectiveDateTime": "2026-09-02",
+        "valueString": "Denies history of pancreatitis. No chest pain. Never smoker. Not on anticoagulants." } }
+  ]
+}

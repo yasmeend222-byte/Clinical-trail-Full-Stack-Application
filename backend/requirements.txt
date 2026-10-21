@@ -1,0 +1,11 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+sqlalchemy>=2.0.36
+pydantic>=2.9.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+httpx>=0.27.0
+pypdf>=5.0.0
+numpy>=2.1.0
+scikit-learn>=1.5.2
+# For PostgreSQL, also install:  psycopg2-binary>=2.9.9
