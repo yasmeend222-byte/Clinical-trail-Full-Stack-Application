@@ -9,6 +9,16 @@ rule-based clinical NLP · TF-IDF vector store · Llama/GPT (OpenAI-compatible A
 
 ## Quick start (Windows)
 
+From Command Prompt:
+
+```cmd
+start.bat
+```
+
+The script creates the backend virtual environment and installs dependencies when needed, then opens the API and frontend in separate Command Prompt windows.
+
+From PowerShell:
+
 ```powershell
 ./start.ps1
 ```
